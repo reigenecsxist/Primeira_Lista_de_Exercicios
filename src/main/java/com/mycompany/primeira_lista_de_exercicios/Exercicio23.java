@@ -9,15 +9,16 @@ import javax.swing.JOptionPane;
  *
  * @author Gabriel de Moura
  */
-public class Exercicio8 {
+public class Exercicio23 {
     
-    Exercicio8(){
-        float lado = Float.parseFloat(JOptionPane.showInputDialog("Insira a medida do lado do quadrado:"));
+    Exercicio23(){
+        float n1 = Float.parseFloat(JOptionPane.showInputDialog("Insira um número:"));
         
-        JOptionPane.showMessageDialog(null, "O perímetro do quadrado é: " +lado*4);
+        JOptionPane.showMessageDialog(null, "A metade de "+n1+" é igual a "+n1/2);
+
     }
 
     public static void main(String[] args) {
-        Exercicio8 ex8 = new Exercicio8();
+        Exercicio23 ex23 = new Exercicio23();
     }
 }

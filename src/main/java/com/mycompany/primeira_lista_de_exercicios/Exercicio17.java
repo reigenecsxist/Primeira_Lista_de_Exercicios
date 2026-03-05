@@ -9,15 +9,16 @@ import javax.swing.JOptionPane;
  *
  * @author Gabriel de Moura
  */
-public class Exercicio8 {
+public class Exercicio17 {
     
-    Exercicio8(){
-        float lado = Float.parseFloat(JOptionPane.showInputDialog("Insira a medida do lado do quadrado:"));
+    Exercicio17(){
+        int dias = Integer.parseInt(JOptionPane.showInputDialog("Insira a quantidade de dias:"));
         
-        JOptionPane.showMessageDialog(null, "O perímetro do quadrado é: " +lado*4);
+        JOptionPane.showMessageDialog(null, dias+" dias são equivalentes a "+dias*24+" horas.");
+
     }
 
     public static void main(String[] args) {
-        Exercicio8 ex8 = new Exercicio8();
+        Exercicio17 ex17 = new Exercicio17();
     }
 }
